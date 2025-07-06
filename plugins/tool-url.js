@@ -65,7 +65,7 @@ malvin({
       `*${mediaType} Uploaded Successfully*\n\n` +
       `*Size:* ${formatBytes(mediaBuffer.length)}\n` +
       `*URL:* ${mediaUrl}\n\n` +
-      `> © Uploaded by Malvin King `
+      `> © Uploaded by Lucky 218 `
     );
 
   } catch (error) {
