@@ -12,7 +12,7 @@ malvin({
 },
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        if (!q) return reply("Please provide the text you want to convert to PDF. *Eg* `.topdf` *Malvin zking*");
+        if (!q) return reply("Please provide the text you want to convert to PDF. *Eg* `.topdf` *Lucky Tech Hub*");
 
         // Create a new PDF document
         const doc = new PDFDocument();
@@ -25,11 +25,11 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             await conn.sendMessage(from, {
                 document: pdfData,
                 mimetype: 'application/pdf',
-                fileName: 'MalvinTech.pdf',
+                fileName: 'LuckyTech.pdf',
                 caption: `
 *📄 PDF created successully!*
 
-> © Created By MALVIN XD 💜`
+> © Created By LUCKY XD 💜`
             }, { quoted: mek });
         });
 
