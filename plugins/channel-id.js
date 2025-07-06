@@ -36,7 +36,7 @@ malvin({
 │ 👥 *Followers:* ${metadata.subscribers?.toLocaleString() || "N/A"}
 │ 🗓️ *Created:* ${metadata.creation_time ? new Date(metadata.creation_time * 1000).toLocaleString("id-ID") : "Unknown"}
 │
-╰─⭓ ᴘᴏᴡᴇʀᴇᴅ ʙʏ *ᴍᴀʟᴠɪɴ xᴅ*
+╰─⭓ Powered By *Lucky Tech Hub*
 `;
 
     if (metadata.preview) {
