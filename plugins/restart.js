@@ -3,7 +3,7 @@ const { sleep } = require("../lib/functions");
 
 malvin({  
     pattern: "restart",  
-    desc: "Restart MALVIN-XD",  
+    desc: "Restart LUCKY-XD",  
     category: "owner",  
     filename: __filename  
 },  
