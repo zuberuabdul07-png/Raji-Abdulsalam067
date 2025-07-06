@@ -256,7 +256,7 @@ jobs:
 
 <p align="center">
   <a href="https://github.com/Tomilucky218">
-    <img src="https://github-readme-stats.vercel.app/api?username=XdKing2&show_icons=true&theme=radical" />
+    <img src="https://github-readme-stats.vercel.app/api?username=Tomilucky218&show_icons=true&theme=radical" />
   </a>
 </p>
 
