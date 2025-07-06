@@ -14,7 +14,7 @@ malvin({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/XdKing2/MALVIN-XD';
+    const githubRepoURL = 'https://github.com/Tomilucky218/Lucky-XD2';
 
     try {
         // Extract username and repo name from the URL
@@ -31,7 +31,7 @@ async (conn, mek, m, { from, reply }) => {
 
         // Format the repository information
         const formattedInfo = `
-    🚀 ᴍᴀʟᴠɪɴ xᴅ ʀᴇᴘᴏ ɪɴғᴏ 🚀
+    🚀 LUCKY-XD REPO INFO 🚀
 
 ╭────────────━⊷
 ┊⭘
@@ -43,13 +43,13 @@ async (conn, mek, m, { from, reply }) => {
 
 > 🌟 Star & 🍴 Fork the repo for more updates!
 
-┊⭘ ʙᴏᴛ ʟɪɴᴋ: https://tinyurl.com/2xlrhx2c
+┊⭘ ʙᴏᴛ ʟɪɴᴋ: https://github.com/Tomilucky218/Lucky-XD2
 ╰────────━⊷
 `;
 
         // Send an image with the formatted info as a caption and context info
         await conn.sendMessage(from, {
-            image: { url: `https://files.catbox.moe/01f9y1.jpg` },
+            image: { url: `https://files.catbox.moe/4itzeu.jpg` },
             caption: formattedInfo,
             contextInfo: { 
                 mentionedJid: [m.sender],
@@ -57,7 +57,7 @@ async (conn, mek, m, { from, reply }) => {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363420656466131@newsletter',
-                    newsletterName: 'ᴍᴀʟᴠɪɴ xᴅ ʀᴇᴘᴏ',
+                    newsletterName: 'LUCKY-XD REPO',
                     serverMessageId: 143
                 }
             }
