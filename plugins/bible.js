@@ -41,7 +41,7 @@ malvin({
                 `🔤 *𝑽𝒆𝒓𝒔𝒆:* ${verse}\n\n` +
                 `📖 *𝑻𝒆𝒙𝒕:* ${text}\n\n` +
                 `🗂️ *𝑻𝒓𝒂𝒏𝒔𝒍𝒂𝒕𝒊𝒐𝒏:* ${translation_name}\n\n` +
-                `> © ᴍᴀʟᴠɪɴ xᴅ ʙɪʙʟᴇ`
+                `> © Powered By Lucky Tech Hub`
             );
         } else {
             reply("❌ *Verse not found.* Please check the reference and try again.");
