@@ -2,7 +2,7 @@ const { malvin } = require("../malvin");
 const moment = require("moment");
 
 let botStartTime = Date.now(); // Recording the start time of the bot
-const ALIVE_IMG = "https://files.catbox.moe/v1rf80.jpg"; // Ensure this URL is valid
+const ALIVE_IMG = "https://files.catbox.moe/4itzeu.jpg"; // Ensure this URL is valid
 
 malvin({
     pattern: "help",
@@ -22,7 +22,7 @@ malvin({
         const runtimeHours = Math.floor(runtimeMilliseconds / (1000 * 60 * 60));
 
         const formattedInfo = `
-╭───  𝙈𝘼𝙇𝙑𝙄𝙉 𝙓𝘿 𝘽𝙊𝙏  ───╮
+╭───  LUCKY-XD BOT  ───╮
 │  
 │ 👤 *User:* ${pushname}
 │ 🕒 *Time:* ${currentTime}
@@ -128,7 +128,7 @@ Absolutely! Let’s go through each section of the commands:
 > etc
 ---
 
-> 🤖 *Status:* ✅ *Malvin is Alive and Ready!*
+> 🤖 *Status:* ✅ *Lucky is Alive and Ready!*
 🎉 *Enjoy the Service!*
         `.trim();
 
@@ -145,7 +145,7 @@ Absolutely! Let’s go through each section of the commands:
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363420656466131@newsletter',
-                        newsletterName: '𝐌𝐀𝐋𝐕𝐈𝐍 𝐀𝐋𝐈𝐕𝐄',
+                        newsletterName: 'LUCKY-XD',
                         serverMessageId: 143
                     }
                 }
