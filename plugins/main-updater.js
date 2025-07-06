@@ -16,24 +16,24 @@ malvin({
     if (!isOwner) return reply("This command is only for the bot owner.");
 
     try {
-        await reply("🔍 Checking for MALVIN-XD updates...");
+        await reply("🔍 Checking for LUCKY-XD updates...");
 
         // Fetch the latest commit hash from GitHub
-        const { data: commitData } = await axios.get("https://api.github.com/repos/XdKing2/MALVIN-XD/commits/main");
+        const { data: commitData } = await axios.get("https://api.github.com/repos/Tomilucky218/Lucky-XD2/commits/main");
         const latestCommitHash = commitData.sha;
 
         // Get the stored commit hash from the database
         const currentHash = await getCommitHash();
 
         if (latestCommitHash === currentHash) {
-            return reply("✅ Your MALVIN XD bot is already up-to-date!");
+            return reply("✅ Your LUCKY XD bot is already up-to-date!");
         }
 
-        await reply("🚀 Updating MALVIN XD Bot...");
+        await reply("🚀 Updating LUCKY XD Bot...");
 
         // Download the latest code
         const zipPath = path.join(__dirname, "latest.zip");
-        const { data: zipData } = await axios.get("https://github.com/XdKing2/MALVIN-XD/archive/main.zip", { responseType: "arraybuffer" });
+        const { data: zipData } = await axios.get("https://github.com/Tomilucky218/Lucky-XD2/archive/main.zip", { responseType: "arraybuffer" });
         fs.writeFileSync(zipPath, zipData);
 
         // Extract ZIP file
@@ -44,7 +44,7 @@ malvin({
 
         // Copy updated files, preserving config.js and app.json
         await reply("🔄 Replacing files...");
-        const sourcePath = path.join(extractPath, "MALVIN-XD-main");
+        const sourcePath = path.join(extractPath, "LUCKY-XD-main");
         const destinationPath = path.join(__dirname, '..');
         copyFolderSync(sourcePath, destinationPath);
 
