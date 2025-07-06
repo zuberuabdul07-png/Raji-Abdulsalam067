@@ -4,7 +4,7 @@ const os = require("os");
 const { runtime } = require('../lib/functions');
 const moment = require("moment");
 
-const ALIVE_IMG = "https://files.catbox.moe/7hqhsw.jpg";
+const ALIVE_IMG = "https://files.catbox.moe/4itzeu.jpg";
 
 malvin({
     pattern: "alive",
@@ -33,7 +33,7 @@ malvin({
             }).join("");
 
         const msg = `
-╭──❖ 「 *${toTinyCap("malvin xd status")}* 」 ❖─
+╭──❖ 「 *${toTinyCap("lucky xd status")}* 」 ❖─
 │
 │ 👤 ʜɪ: *${pushname}*
 │ 🕓 ᴛɪᴍᴇ: *${currentTime}*
@@ -44,7 +44,7 @@ malvin({
 │
 ╰─────────❖
 
-✅ *Malvin is alive & operational!*
+✅ *Lucky is alive & operational!*
 🚀 *System: Stable & running smooth!*
 ✨ *Thank you for checking in!*
         `.trim();
@@ -58,7 +58,7 @@ malvin({
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363420656466131@newsletter',
-                    newsletterName: 'ᴍᴀʟᴠɪɴ xᴅ ᴀʟɪᴠᴇ',
+                    newsletterName: 'LUCKY XD',
                     serverMessageId: 143
                 }
             }
