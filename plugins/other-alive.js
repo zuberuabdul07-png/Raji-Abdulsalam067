@@ -35,7 +35,7 @@ let des = `*👋 Hello ${pushname} I'm alive now*
 await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/7hqhsw.jpg` },
+                image: { url: `https://files.catbox.moe/4itzeu.jpg` },
                 caption: des,
                 contextInfo: {
                     mentionedJid: [m.sender],
