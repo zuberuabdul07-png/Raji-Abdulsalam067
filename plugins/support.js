@@ -28,8 +28,8 @@ async (conn, mek, m, {
         const uptimeFormatted = runtime(process.uptime());
 
         const message = `
-╭─『 *𝗠𝗔𝗟𝗩𝗜𝗡 𝗫𝗗 - 𝗦𝗨𝗣𝗣𝗢𝗥𝗧* 』─
-│ 👤 *Developer* : Mr Malvin 🇿🇼
+╭─『 *LUCKY-XD SUPPORT* 』─
+│ 👤 *Developer* : Mr Lucky 🇺🇬
 │ ⚙️ *Mode*      : ${config.MODE}
 │ ⏱️ *Uptime*    : ${uptimeFormatted}
 │ 💠 *Prefix*    : ${config.PREFIX}
@@ -37,22 +37,22 @@ async (conn, mek, m, {
 │ 🕰️ *Time*      : ${currentTime}
 ╰─────────────
 
-📢 *Follow & Support MALVIN XD* ${readMore}
+📢 *Follow & Support LUCKY XD* ${readMore}
 
 🔔 *Official WhatsApp Channel*
-🔗 https://whatsapp.com/channel/0029VbB3YxTDJ6H15SKoBv3S
+🔗 https://whatsapp.com/channel/0029VbAnuvT6RGJ9Qrf3NJ0L
 
 🎬 *YouTube Channel*
-🔗 https://youtube.com/@malvintech2
+🔗 https://youtube.com/@luckytechhub-i9u
 
 👨‍💻 *Developer Contact*
-🔗 wa.me/263714757857?text=Hi%20Malvin,%20I%20need%20support!
+🔗 wa.me/256789966218?text=Hi%20Lucky,%20I%20need%20support!
 
-> 💡 Powered by *Malvin King*
+> 💡 Powered By Lucky Tech Hub
         `.trim();
 
         await conn.sendMessage(from, {
-            image: { url: 'https://files.catbox.moe/bddvfr.jpg' },
+            image: { url: 'https://files.catbox.moe/4itzeu.jpg' },
             caption: message,
             contextInfo: {
                 mentionedJid: [m.sender],
@@ -60,7 +60,7 @@ async (conn, mek, m, {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363420656466131@newsletter',
-                    newsletterName: '🪀『 𝙼𝙰𝙻𝚅𝙸𝙽-𝚇ᴅ 』🪀',
+                    newsletterName: '🪀『 LUCKY-XD 』🪀',
                     serverMessageId: 143
                 }
             }
