@@ -8,7 +8,7 @@
   
   "env": {
     "SESSION_ID": {
-      "description": "Must Start with 'lucky~'",
+      "description": "Must Start with 'malvin~'",
       "required": true,
       "value": ""
     },
