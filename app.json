@@ -1,8 +1,8 @@
 {
   "name": "LUCKY-XD",
-  "description": "Javascript WhatsApp bot made by ᴍᴀʟᴠɪɴ ᴋɪɴɢ",
-  "logo": "https://files.catbox.moe/qumhu4.jpg",
-  "keywords": ["MALVIN XD"],
+  "description": "Javascript WhatsApp bot made by Lucky 218",
+  "logo": "https://files.catbox.moe/4itzeu.jpg",
+  "keywords": ["LUCKY XD"],
   "success_url": "/",
 
     "stack": "container",
@@ -16,7 +16,7 @@
       "BOT_NAME": {
         "description": "write here your bot name.",
         "required": true,
-        "value": "ᴍᴀʟᴠɪɴ xᴅ" 
+        "value": "LUCKY XD" 
         
     },
      "PREFIX": {
@@ -33,14 +33,14 @@
    },
      "DESCRIPTION": {
       "description": "add caption for menu and other",
-      "value": "> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ xᴅ*",
+      "value": "> *© Powered By Lucky Tech Hub*",
       "required": true
       
    }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
-      "value": "263714757857"
+      "value": "256789966218"
       "required": true
       
    },
