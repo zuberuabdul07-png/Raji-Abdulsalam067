@@ -75,7 +75,7 @@ malvin({
     await reply(
       `🔍 *Image Analysis Results*\n\n` +
       `${scanResponse.data.result}\n\n` +
-      `> © Powered by Malvin King`
+      `> © Powered By Lucky Tech Hub`
     );
 
   } catch (error) {
