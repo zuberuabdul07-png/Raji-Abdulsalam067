@@ -31,7 +31,7 @@ malvin({
 │
 ╰─────────
 
->⚡ Powered By Lucky Tech Hub
+>⚡Powered By Lucky Tech Hub
         `.trim();
 
         await conn.sendMessage(
