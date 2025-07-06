@@ -40,7 +40,7 @@ async (conn, mek, m, {
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363398430045533@newsletter',
+          newsletterJid: '120363420656466131@newsletter',
           newsletterName: "LUCKY-XD",
           serverMessageId: 143
         }
