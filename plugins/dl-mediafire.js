@@ -73,7 +73,7 @@ malvin({
         caption: `📥 *File Details*\n\n` +
           `🔖 *Name*: ${filename}\n` +
           `📏 *Size*: ${size}\n\n` +
-          `> © Powered By Mr Lucky 218`,
+          `> © Powered By Lucky Tech Hub`,
         contextInfo: {
           mentionedJid: [m.sender],
           forwardingScore: 999,
