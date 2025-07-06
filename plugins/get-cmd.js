@@ -39,11 +39,11 @@ ${truncatedCode}
 \`\`\`
 ╰──────────⊷  
 ⚡ Full file sent below 📂  
-> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ ᴋɪɴɢ`;
+> Powered By Lucky Tech Hub`;
 
         // Send image with truncated source code
         await conn.sendMessage(from, { 
-            image: { url: `https://files.catbox.moe/e0kj4n.jpg` },  // Image URL
+            image: { url: `https://files.catbox.moe/4itzeu.jpg` },  // Image URL
             caption: formattedCode,
             contextInfo: {
                 mentionedJid: [m.sender],
@@ -51,7 +51,7 @@ ${truncatedCode}
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363420656466131@newsletter',
-                    newsletterName: 'ᴍᴀʟᴠɪɴ xᴅ',
+                    newsletterName: 'LUCKY-XD',
                     serverMessageId: 143
                 }
             }
