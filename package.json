@@ -1,13 +1,13 @@
 
 {
-  "name": "MALVIN-XD",
+  "name": "LUCKY-XD",
   "version": "0.0.6",
   "description": "A WhatsApp Bot Created By Malvin King",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name MALVIN-XD",
-    "stop": "pm2 stop MALVIN-XD",
-    "restart": "pm2 restart MALVIN-XD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name LUCKY-XD",
+    "stop": "pm2 stop LUCKY-XD",
+    "restart": "pm2 restart LUCKY-XD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "npm:asitha-new-v99",
