@@ -34,7 +34,7 @@ async (conn, mek, m, {
 
     const imageMessage = {
       image: { url: res.data.screenshotUrl },
-      caption: `🖼️ *Web Screenshot Generated*\n\n🔗 *URL:* ${q}\n\n© Powered by *Malvin King*`,
+      caption: `🖼️ *Web Screenshot Generated*\n\n🔗 *URL:* ${q}\n\n© Powered By Lucky Tech Hub`,
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
