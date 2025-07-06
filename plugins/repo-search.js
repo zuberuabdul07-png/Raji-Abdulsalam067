@@ -25,7 +25,7 @@ malvin({
     responseMsg += `🍴 *Forks*: ${data.forks_count}\n`;
     responseMsg += `👤 *Owner*: ${data.owner.login}\n`;
     responseMsg += `📅 *Created At*: ${new Date(data.created_at).toLocaleDateString()}\n`;
-    responseMsg += `\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴇᴍᴏᴛɪᴏɴʟᴇss ᴋɪɴɢ 🖤`;
+    responseMsg += `\n> *© Powered By Lucky Tech Hub 🖤`;
 
     await conn.sendMessage(from, { text: responseMsg }, { quoted: m });
   } catch (error) {
