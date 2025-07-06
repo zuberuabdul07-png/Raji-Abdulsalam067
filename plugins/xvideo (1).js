@@ -59,7 +59,7 @@ malvin({
 
 📌 *Reply with the number to download your choice.*
 
-> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ xᴅ
+> Powered By Lucky Tech Hub
 
 `;
 
