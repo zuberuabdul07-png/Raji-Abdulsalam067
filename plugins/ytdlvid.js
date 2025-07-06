@@ -45,13 +45,13 @@ malvin({
 
         await conn.sendMessage(from, {
             image: { url: thumbnail },
-            caption: `🎬 *Video Found:*\n\n📌 *Title:* ${title}\n⏱️ *Duration:* ${timestamp}\n🔗 *Link:* ${url}\n\n> Powered by Malvin`
+            caption: `🎬 *Video Found:*\n\n📌 *Title:* ${title}\n⏱️ *Duration:* ${timestamp}\n🔗 *Link:* ${url}\n\n> Powered By Lucky Tech Hub`
         }, { quoted: mek });
 
         await conn.sendMessage(from, {
             video: { url: downloadUrl },
             mimetype: "video/mp4",
-            caption: `🎬 *Video Downloaded Successfully!*\n\n> Powered by Malvin`
+            caption: `🎬 *Video Downloaded Successfully!*\n\n> Powered By Lucky Tech Hub`
         }, { quoted: mek });
 
     } catch (error) {
