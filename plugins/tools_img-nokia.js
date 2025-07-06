@@ -75,7 +75,7 @@ malvin({
 
     await conn.sendMessage(m.chat, {
       image: imageBuffer,
-      caption: `> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ xᴅ*`
+      caption: `> *Powered By Lucky Tech Hub*`
     });
 
   } catch (error) {
