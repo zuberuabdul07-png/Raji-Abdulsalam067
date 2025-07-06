@@ -51,7 +51,7 @@ malvin({
     try {
         // Generate the formatted settings message with emojis
         const settingsMessage = `
-╭─❍〔 *ᴍᴀʟᴠɪɴ xᴅ sᴇᴛᴛɪɴɢs* 〕❍─
+╭─❍〔 *LUCKY-XD SETTING* 〕❍─
 ┊
 ┆ *📌 ᴄᴜʀʀᴇɴᴛ ᴄᴏɴғɪɢᴇʀᴀᴛɪᴏɴs:*
 ┆──────────────
@@ -63,7 +63,7 @@ ${generateSettingsList()}
 `;
 
         // Image & Audio URLs (with fallbacks in case of missing values)
-        const imageUrl = config.IMAGE_URL || 'https://files.catbox.moe/ebqp72.png';
+        const imageUrl = config.IMAGE_URL || 'https://files.catbox.moe/4itzeu.jpg';
        
         // Send settings message with an image
         await conn.sendMessage(from, {
@@ -75,7 +75,7 @@ ${generateSettingsList()}
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363420656466131@newsletter',
-                    newsletterName: "ᴍᴀʟᴠɪɴ xᴅ ᴇɴᴠ",
+                    newsletterName: "LUCKY-XD",
                     serverMessageId: 143
                 }
             }
