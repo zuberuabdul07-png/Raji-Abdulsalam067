@@ -32,7 +32,7 @@ malvin({
                `*📄 Description:* ${description || 'No description'}\n\n` +
                `*🔗 Link:* ${link}\n` +
                
-               `_ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ xᴅ_`
+               `_Powered By Lucky Tech Hub_`
     }, { quoted: mek });
 
   } catch (error) {
