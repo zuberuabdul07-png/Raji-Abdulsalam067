@@ -42,7 +42,7 @@ malvin({
 *🪩 REPOSITORY:* ${repository}
 *🔗 NPM URL:* ${npmUrl}
 
-> Powered By Malvin King 
+> Powered By Lucky Tech Hub 
 `;
 
     // Send the message
