@@ -69,7 +69,7 @@ malvin({
       `📅 *Lᴀsᴛ ᴜᴘᴅᴀᴛᴇ*: ${lastup}\n` +
       `📦 *Pᴀᴄᴋᴀɢᴇ*: ${package}\n` +
       `📏 *Sɪᴢᴇ*: ${size}\n\n` +
-      `> © Powered By Mr Lucky 218 `;
+      `> © Powered By Lucky Tech Hub `;
 
     // Send the APK file as a document
     await conn.sendMessage(from, {
