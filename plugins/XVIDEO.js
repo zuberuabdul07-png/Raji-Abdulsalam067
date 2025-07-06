@@ -23,31 +23,31 @@ async (conn, mek, m, { from, quoted, q, reply }) => {
         const videos = xv_list.result.slice(0, 30); // Limit to 30 results
 
         // Prepare the list
-        let listText = `╭━━━〔 *MALVIN-XD XVIDEO* 〕━━━┈⊷
+        let listText = `╭━━━〔 *LUCKY-XD XVIDEO* 〕━━━┈⊷
 ┃▸╭───────────
 ┃▸┃๏ *XVIDEO SEARCH RESULTS*
 ┃▸└───────────···๏
 ╰────────────────┈⊷\n\n🔢 *Please reply with the number of your choice*\n\n`;
         videos.forEach((video, index) => {
             listText += `🔢│➪ *[REPLY NUMBER ${index + 1} ]*\n\n`;
-            listText += `┏━❮🔞 MALVIN-XD DETAILS 🔞❯━\n`;
+            listText += `┏━❮🔞 LUCKY-XD DETAILS 🔞❯━\n`;
             listText += `┃📽️ *Title*: ${video.title}\n`;
             listText += `┃👁️ *Views*: ${video.views || 'N/A'}\n`;
             listText += `┃🔗 *URL*: ${video.url}\n`;
             listText += `┗━━━━━━━━━━━━━━𖣔𖣔\n\n`;
         });
         listText += `> *Please reply with the number of your choice*\n`;
-        listText += `> ㋛︎ ᴘᴏᴡᴇʀᴅ ʙʏ ᴍᴀʟᴠɪɴ ᴋɪɴɢ`;
+        listText += `> ㋛︎ Powered By Lucky Tech Hub`;
 
         // Send the list
         const sentMsg = await conn.sendMessage(from, {
-            image: { url: videos[0].image || 'https://files.catbox.moe/qumhu4.jpg' },
+            image: { url: videos[0].image || 'https://files.catbox.moe/4itzeu.jpg' },
             caption: listText,
             contextInfo: {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterName: 'MALVIN-XD',
+                    newsletterName: 'LUCKY-XD',
                     newsletterJid: "120363420656466131@newsletter",
                     serverMessageId: 999
                 }
@@ -82,7 +82,7 @@ async (conn, mek, m, { from, quoted, q, reply }) => {
                 }
 
                 // Details message
-                const desc = `╭━━━〔 *MALVIN-XD XVIDEO* 〕━━━┈⊷
+                const desc = `╭━━━〔 *LUCKY-XD XVIDEO* 〕━━━┈⊷
 ┃▸╭───────────
 ┃▸┃๏ *XVIDEO DOWNLOADER*
 ┃▸└───────────···๯
@@ -97,17 +97,17 @@ async (conn, mek, m, { from, quoted, q, reply }) => {
 ┃◈┃•2 | Download as Document 📁
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
-> ㋛︎ ᴘᴏᴡᴇʀᴅ ʙʏ ᴍᴀʟᴠɪɴ ᴋɪɴɢ`;
+> ㋛︎ Powered By Lucky Tech Hub`;
 
 
                 const optionMsg = await conn.sendMessage(from, {
-                    image: { url: xv_info.result.image || 'https://files.catbox.moe/qumhu4.jpg' },
+                    image: { url: xv_info.result.image || 'https://files.catbox.moe/4itzeu.jpg' },
                     caption: desc,
                     contextInfo: {
                         forwardingScore: 999,
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
-                            newsletterName: 'MALVIN-XD',
+                            newsletterName: 'LUCKY-XD',
                             newsletterJid: "120363420656466131@newsletter",
                             serverMessageId: 999
                         }
@@ -127,7 +127,7 @@ async (conn, mek, m, { from, quoted, q, reply }) => {
                     if (isReplyToOptMsg) {
                         await conn.sendMessage(from, { react: { text: '⬇️', key: optMek.key } });
 
-                        const caption = `🔞 *MALVIN-XD XVIDEO DOWNLOADER* 🔞\n\n📽️ *Title*: ${xv_info.result.title}\n> ㋛︎ ᴘᴏᴡᴇʀᴅ ʙʏ ᴍᴀʟᴠɪɴ ᴋɪɴɢ`;
+                        const caption = `🔞 *LUCKY-XD XVIDEO DOWNLOADER* 🔞\n\n📽️ *Title*: ${xv_info.result.title}\n> ㋛︎ Powered By Lucky Tech Hub`;
 
                         if (optType === '1') {
 
@@ -138,10 +138,10 @@ async (conn, mek, m, { from, quoted, q, reply }) => {
                                 contextInfo: {
                                     externalAdReply: {
                                         title: xv_info.result.title,
-                                        body: "MALVIN-XD XVideo",
+                                        body: "LUCKY-XD XVideo",
                                         mediaType: 2,
                                         sourceUrl: selectedVideo.url,
-                                        thumbnailUrl: xv_info.result.image || "https://files.catbox.moe/qumhu4.jpg",
+                                        thumbnailUrl: xv_info.result.image || "https://files.catbox.moe/4itzeu.jpg",
                                         renderLargerThumbnail: true,
                                         showAdAttribution: true
                                     }
