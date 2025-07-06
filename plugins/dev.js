@@ -31,13 +31,13 @@ malvin({
 │
 ╰─────────
 
->⚡ POWERED BY LUCKY TECH HUB
+>⚡ Powered By Lucky Tech Hub
         `.trim();
 
         await conn.sendMessage(
             from,
             {
-                image: { url: 'https://files.catbox.moe/vfv7n6.jpg' },
+                image: { url: 'https://files.catbox.moe/4itzeu.jpg' },
                 caption: caption,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -45,13 +45,13 @@ malvin({
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363420656466131@newsletter',
-                        newsletterName: '🪀『 𝙼𝙰𝙻𝚅𝙸𝙽-𝚇𝙳 』🪀',
+                        newsletterName: '🪀『 LUCKY-XD 』🪀',
                         serverMessageId: 143
                     },
                     externalAdReply: {
                         title: "Lucky-XD Bot",
                         body: "Created with ❤️ by Lucky 218",
-                        thumbnailUrl: 'https://files.catbox.moe/vfv7n6.jpg',
+                        thumbnailUrl: 'https://files.catbox.moe/4itzeu.jpg',
                         mediaType: 1,
                         renderSmallerThumbnail: true,
                         showAdAttribution: true,
