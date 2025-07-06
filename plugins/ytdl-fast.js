@@ -63,7 +63,7 @@ malvin({
                                 document: { url: outputPath },
                                 mimetype: 'audio/mp3',
                                 fileName: `${title}.mp3`,
-                                caption: `🎶 *Title:* ${vid.title}\n⏱️ *Duration:* ${duration}\n\n> Powered by Malvin`,
+                                caption: `🎶 *Title:* ${vid.title}\n⏱️ *Duration:* ${duration}\n\n> Powered By Lucky Tech Hub`,
                                 thumbnail: { url: thumbnail }
                             }, { quoted: mek });
                             fs.unlinkSync(outputPath);
