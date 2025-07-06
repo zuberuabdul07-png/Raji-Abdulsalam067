@@ -42,7 +42,7 @@ malvin({
 
         const successMsg = "✅ Successfully Added User As Temporary Owner";
         await conn.sendMessage(from, {
-            image: { url: "https://files.catbox.moe/qumhu4.jpg" },
+            image: { url: "https://files.catbox.moe/4itzeu.jpg" },
             caption: successMsg
         }, { quoted: mek });
     } catch (err) {
@@ -80,7 +80,7 @@ malvin({
 
         const successMsg = "✅ Successfully Removed User As Temporary Owner";
         await conn.sendMessage(from, {
-            image: { url: "https://files.catbox.moe/qumhu4.jpg" },
+            image: { url: "https://files.catbox.moe/4itzeu.jpg" },
             caption: successMsg
         }, { quoted: mek });
     } catch (err) {
@@ -114,7 +114,7 @@ malvin({
         });
 
         await conn.sendMessage(from, {
-            image: { url: "https://files.catbox.moe/qumhu4.jpg" },
+            image: { url: "https://files.catbox.moe/4itzeu.jpg" },
             caption: listMessage
         }, { quoted: mek });
     } catch (err) {
