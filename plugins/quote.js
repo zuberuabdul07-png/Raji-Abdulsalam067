@@ -19,7 +19,7 @@ malvin({
 │  📜 *"${content}"*
 │  — ${author || "Unknown"}
 │
-└─🧠 Powered by *Malvin King*
+└─🧠 Powered By *Lucky Tech Hub*
     `.trim();
 
     reply(formatted);
