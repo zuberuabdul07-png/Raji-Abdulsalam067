@@ -56,7 +56,7 @@ malvin({
         `💬 *Cᴏᴍᴍᴇɴᴛs*: ${metrics.comment_count}\n` +
         `🔁 *Sʜᴀʀᴇs*: ${metrics.share_count}\n` +
         `📥 *Doᴡɴʟᴏᴀᴅs*: ${metrics.download_count}\n\n` +
-        `> © Powered By Mr Lucky 218`,
+        `> © Powered By Lucky Tech Hub`,
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
