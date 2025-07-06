@@ -25,7 +25,7 @@ malvin({
     }
 
     // Remote version data
-    const repoRawURL = 'https://raw.githubusercontent.com/XdKing2/MALVIN-XD/main/data/version.json';
+    const repoRawURL = 'https://raw.githubusercontent.com/Tomilucky218/Lucky-XD2/main/data/version.json';
     let latestVersion = 'Unknown';
     let latestChangelog = 'Not available';
     try {
@@ -47,10 +47,10 @@ malvin({
 
     const updateStatus = localVersion !== latestVersion
       ? `🔄 *Update Available!*\n👉 *Current:* ${localVersion}\n👉 *Latest:* ${latestVersion}\n\nUse *.update* to upgrade.`
-      : `✅ Your MALVIN-XD bot is up-to-date!`;
+      : `✅ Your LUCKY-XD bot is up-to-date!`;
 
     const caption = `
-╭──〔 *MALVIN-XD STATUS* 〕─
+╭──〔 *LUCKY-XD STATUS* 〕─
 
 🧑‍💻 ᴜsᴇʀ: *${pushname}*
 📍 ʜᴏsᴛ: *${hostname}*
@@ -70,14 +70,14 @@ malvin({
 📅 *Last Local Update:* ${lastUpdated}
 📜 *Changelog:* ${latestChangelog}
 
-📎 *Repo:* https://github.com/XdKing2/MALVIN-XD
-👑 *Owner:* https://github.com/XdKing2
+📎 *Repo:* https://github.com/Tomilucky218/Lucky-XD2
+👑 *Owner:* https://github.com/Tomilucky218
 
 ${updateStatus}
 `.trim();
 
     await conn.sendMessage(from, {
-      image: { url: 'https://files.catbox.moe/01f9y1.jpg' },
+      image: { url: 'https://files.catbox.moe/4itzeu.jpg' },
       caption,
       contextInfo: {
         mentionedJid: [m.sender],
@@ -85,7 +85,7 @@ ${updateStatus}
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363420656466131@newsletter',
-          newsletterName: 'Malvin King',
+          newsletterName: 'LUCKY-XD',
           serverMessageId: 143
         }
       }
