@@ -26,7 +26,7 @@ malvin({
     const botNumber = conn.user.id.split(":")[0] + '@s.whatsapp.net';
 
     if (m.mentionedJid.includes(botNumber)) {
-      const thumbnailRes = await axios.get(config.MENU_IMAGE_URL || "https://files.catbox.moe/mn47ve", {
+      const thumbnailRes = await axios.get(config.MENU_IMAGE_URL || "https://files.catbox.moe/4itzeu.jpg", {
         responseType: 'arraybuffer'
       });
       const thumbnailBuffer = Buffer.from(thumbnailRes.data, 'binary');
@@ -40,13 +40,13 @@ malvin({
           forwardingScore: 999,
           isForwarded: true,
           externalAdReply: {
-            title: config.BOT_NAME || "MALVIN-XD",
-            body: config.DESCRIPTION || "POWERED BY MALVIN KING",
+            title: config.BOT_NAME || "LUCKY-XD",
+            body: config.DESCRIPTION || "Powered By Lucky Tech HubG",
             mediaType: 1,
             renderLargerThumbnail: true,
             thumbnail: thumbnailBuffer,
-            mediaUrl: "https://files.catbox.moe/medum3", // Static image URL
-            sourceUrl: "https://wa.me/263724757857",
+            mediaUrl: "https://files.catbox.moe/4itzeu.jpg", // Static image URL
+            sourceUrl: "https://wa.me/256789966218",
             showAdAttribution: true
           }
         }
