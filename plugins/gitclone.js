@@ -53,7 +53,7 @@ malvin({
 ┆
 ╎*Fɪʟᴇɴᴀᴍᴇ:* ${fileName}
 ╰─⟤
-> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ ᴋɪɴɢ*
+> *Powered By Lucky Tech Hub*
 
 `);
 
@@ -68,7 +68,7 @@ malvin({
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363420656466131@newsletter',
-          newsletterName: 'ᴍᴀʟᴠɪɴ xᴅ ɢɪᴛ ᴅʟ',
+          newsletterName: 'LUCKY-XD Git DL',
           serverMessageId: 143
         }
       }
