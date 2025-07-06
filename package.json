@@ -2,7 +2,7 @@
 {
   "name": "LUCKY-XD",
   "version": "0.0.6",
-  "description": "A WhatsApp Bot Created By Malvin King",
+  "description": "A WhatsApp Bot Created By Lucky 218",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name LUCKY-XD",
