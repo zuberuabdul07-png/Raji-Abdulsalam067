@@ -36,7 +36,7 @@ malvin({
 
         let info = `🎧 *𝚂𝙾𝙽𝙶 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝚁* 🎧
         
-╭──❍ ᴍᴀʟᴠɪɴ xᴅ ᴅʟ ❍        
+╭──❍ LUCKY XD DL ❍        
 ┊🎵 *ᴛɪᴛʟᴇ:* ${title || "Unknown"}
 ┊
 ┊⏳ *ᴅᴜʀᴀᴛɪᴏɴ:* ${timestamp || "Unknown"}
@@ -51,7 +51,7 @@ malvin({
 ┊1 *Aᴜᴅɪᴏ Tʏᴘᴇ* 🎵
 ┊2 *Dᴏᴄᴜᴍᴇɴᴛ Tʏᴘᴇ* 📁 
 ╰╼
-> ${config.FOOTER || "POWERED BY LUCKY TECH HUB"}`;
+> ${config.FOOTER || "Powered By Lucky Tech Hub"}`;
 
         const sentMsg = await conn.sendMessage(from, { image: { url: image }, caption: info }, { quoted: mek });
         const messageID = sentMsg.key.id;
