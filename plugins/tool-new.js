@@ -258,7 +258,7 @@ async (conn, mek, m, { reply }) => {
             minute: "2-digit", 
             second: "2-digit", 
             hour12: true,
-            timeZone: "Africa/Uganda" // Setting Africa time zone explicitly
+            timeZone: "Africa/Kampala" // Setting East Africa time zone explicitly
         });
         
         // Send the local time as reply
