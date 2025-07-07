@@ -15,6 +15,7 @@
 <p align="center">
   <img src="https://files.catbox.moe/4itzeu.jpg" />
 </p>
+## 📊 Visitor Counter
 <p align="center">
   <img src="https://profile-counter.glitch.me/Tomilucky218/count.svg" alt="visitor counter"/>
 </p>
