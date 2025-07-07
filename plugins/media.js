@@ -51,7 +51,7 @@ async function sendDailyFact(conn) {
         const res = await axios.get('https://uselessfacts.jsph.pl/random.json?language=fr');
         const fact = res.data.text;
 
-        const text = `📚 Here's a *${theme}* fact for your *${day}* morning:\n\n*${fact}*\n\n> _Powered by Malvin King_`;
+        const text = `📚 Here's a *${theme}* fact for your *${day}* morning:\n\n*${fact}*\n\n> Powered By Lucky Tech Hub`;
 
         // Replace this with your broadcast logic (e.g., sending to owner, group, or subscribers)
         conn.sendMessage(config.OWNER_NUMBER + "@s.whatsapp.net", { text }, { quoted: null });
