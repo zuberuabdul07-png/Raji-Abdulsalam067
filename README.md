@@ -1,12 +1,22 @@
+<p align="center">
+  <img src="https://i.imgur.com/LyHic3i.gif" />
+</p>
 
+<div align="center"> 
+  <a href="https://git.io/typing-svg"> 
+    <img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=33ff00&center=true&width=910&height=100&lines=Lucky-XD-Bot;Multi+Device+Whatsapp+Bot;Coded+By+Lucky218" alt="Typing SVG" />
+  </a> 
+</div> 
 
-</div>
 <p align="center">
   <img src="https://i.imgur.com/LyHic3i.gif" />
 </p>
 
 <p align="center">
   <img src="https://files.catbox.moe/4itzeu.jpg" />
+</p>
+<p align="center">
+  <img src="https://profile-counter.glitch.me/Tomilucky218/count.svg" alt="visitor counter"/>
 </p>
 
 <!-- 📊 STATS & HERO ANIMATION (Updated Colors) -->
@@ -49,17 +59,17 @@ Authenticate using **one** of the methods below to generate your `Session ID`.
 
 > 🟢 Pair Code Authentication
 
-[![Get Pairing Code](https://img.shields.io/badge/Get%20Pairing%20Code-orange?style=for-the-badge&logo=opencv&logoColor=black)](https://new-session-x1e9.onrender.com/pair)
+[![Get Pairing Code](https://img.shields.io/badge/Get%20Pairing%20Code-orange?style=for-the-badge&logo=opencv&logoColor=black)](https://lucky-xd-pair-1.onrender.com)
 
 > 🔵 QR Code Authentication
 
-[![Scan QR Code](https://img.shields.io/badge/Scan%20QR%20Code-000000?style=for-the-badge&logo=react&logoColor=white)](https://new-session-x1e9.onrender.com/qr)
+[![Scan QR Code](https://img.shields.io/badge/Scan%20QR%20Code-000000?style=for-the-badge&logo=react&logoColor=white)](https://lucky-xd-pair-1.onrender.com/qr)
 
 
 
 #### 🧩 Session App
 
-[![Session App](https://img.shields.io/badge/Session%20App-000000?style=for-the-badge&logo=react&logoColor=white)](https://new-session-x1e9.onrender.com)
+[![Session App](https://img.shields.io/badge/Session%20App-000000?style=for-the-badge&logo=react&logoColor=white)](https://lucky-xd-pair-1.onrender.com)
 
 
 
