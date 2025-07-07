@@ -38,7 +38,7 @@ malvin({
                     from,
                     {
                         image: { url: imageUrl },
-                        caption: `📷 Result for: *${query}*\n\nRequested by: @${m.sender.split('@')[0]}\n> © Powered by Malvin King`,
+                        caption: `📷 Result for: *${query}*\n\nRequested by: @${m.sender.split('@')[0]}\n> © Powered By Lucky Tech Hub`,
                         contextInfo: { mentionedJid: [m.sender] }
                     },
                     { quoted: mek }
