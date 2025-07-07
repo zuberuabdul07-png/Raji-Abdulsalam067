@@ -31,7 +31,7 @@ malvin({
         let buffer = await getBuffer(imageUrl);
         let sticker = new Sticker(buffer, {
             pack: "Emoji Mix",
-            author: "ᴍᴀʟᴠɪɴ xᴅ",
+            author: "LUCKY-XD",
             type: StickerTypes.FULL,
             categories: ["🤩", "🎉"],
             quality: 75,
