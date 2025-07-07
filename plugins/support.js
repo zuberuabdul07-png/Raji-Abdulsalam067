@@ -40,15 +40,15 @@ async (conn, mek, m, {
 📢 *Follow & Support LUCKY XD* ${readMore}
 
 🔔 *Official WhatsApp Channel*
-🔗 https://whatsapp.com/channel/0029VbAnuvT6RGJ9Qrf3NJ0L
+https://whatsapp.com/channel/0029VbAnuvT6RGJ9Qrf3NJ0L
 
 🎬 *YouTube Channel*
-🔗 https://youtube.com/@luckytechhub-i9u
+https://youtube.com/@luckytechhub-i9u
 
 👨‍💻 *Developer Contact*
-🔗 wa.me/256789966218?text=Hi%20Lucky,%20I%20need%20support!
+wa.me/256789966218?text=Hi%20Lucky,%20I%20need%20support!
 
-> 💡 Powered By Lucky Tech Hub
+>💡Powered By Lucky Tech Hub
         `.trim();
 
         await conn.sendMessage(from, {
