@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "malvin~t3MByDCZ#WHhlfz7Vr6pCFvLvbGePHtZuKW_bXf_YANqORcSVTLA",
+SESSION_ID: process.env.SESSION_ID || "malvin~J3l21KZY#lwgcHi95527-VeOG_3bbEb9kYlx5Mj-Z47d2GSf0RJU",
 // add your Session Id make sure it starts with malvin~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -34,7 +34,7 @@ LINK_WHITELIST: "youtube.com,github.com",
 // set the auto reply massage on status reply  
 
 
-       WELCOME: process.env.WELCOME || "false",
+       WELCOME: process.env.WELCOME || "true",
 // true if want welcome and goodbye msg in groups 
    
        ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
@@ -59,7 +59,7 @@ LINK_WHITELIST: "youtube.com,github.com",
         STICKER_NAME: process.env.STICKER_NAME || "LUCKY-XD",
 // type sticker pack name 
 
-        CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
+        CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
 // make this true for custum emoji react  
   
       CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
@@ -82,7 +82,7 @@ OWNER_NAME: process.env.OWNER_NAME || "Lucky 218",
 
                  AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
-                ANTI_BAD: process.env.ANTI_BAD || "false",
+                ANTI_BAD: process.env.ANTI_BAD || "true",
 // false or true for anti bad words  
 
             ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
