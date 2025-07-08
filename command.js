@@ -1,120 +1,22 @@
-// QUEEN ELISA MULTIDEVICE WHATSAPP BOT 2025-2099
- // CREATED BY AYAN MODZ
- // FOLLOW MY CHANNEL   https://whatsapp.com/channel/0029Vb6KS7MGk1FnsSiliX0P
- //    ⏤͟͟͞͞ ✰© QUEEN ELISA COMMAND⏤͟͟͞͞ ✰
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 var commands = [];
 
-function cmd(info, func) {
-    var data = info;
-    data.function = func;
-    if (!data.dontAddCommandList) data.dontAddCommandList = false;
-    if (!info.desc) info.desc = '';
-    if (!data.fromMe) data.fromMe = false;
-    if (!info.category) data.category = 'misc';
-    if(!info.filename) data.filename = "Not Provided";
-    commands.push(data);
-    return data;
+function malvin(command, callback) {
+    var cmd = command;
+    cmd.callback = callback;
+    
+    if (!cmd.enabled) cmd.enabled = true;
+    if (!command.desc) cmd.desc = '';
+    if (!cmd.fromMe) cmd.fromMe = false;
+    if (!command.category) cmd.category = 'misc';
+    if (!command.filename) cmd.filename = 'Not Provided';
+    
+    commands.push(cmd);
+    return cmd;
 }
+
 module.exports = {
-    cmd,
-    AddCommand:cmd,
-    Function:cmd,
-    Module:cmd,
-    commands,
+    malvin: malvin,
+    AddCommand: malvin,
+    Function: malvin,
+    commands: commands
 };
