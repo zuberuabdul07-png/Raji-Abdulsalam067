@@ -44,7 +44,7 @@ const Crypto = require('crypto')
 const path = require('path')
 const prefix = config.PREFIX
 
-const ownerNumber = ['263780934873']
+const ownerNumber = ['256789101112']
 
 const tempDir = path.join(os.tmpdir(), 'cache-temp')
 if (!fs.existsSync(tempDir)) {
@@ -68,7 +68,7 @@ setInterval(clearTempDir, 5 * 60 * 1000)
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
   if (!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-  const sessdata = config.SESSION_ID.replace("lite~", '')
+  const sessdata = config.SESSION_ID.replace("malvin~", '')
   const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
   filer.download((err, data) => {
     if (err) throw err
@@ -123,23 +123,23 @@ async function connectToWA() {
           console.log('[ ✔ ] Plugins installed successfully ✅')
           console.log('[ 🪀 ] Bot connected to WhatsApp 📲')
 
-          let up = `*Hᴇʟʟᴏ ᴛʜᴇʀᴇ ʟɪᴛᴇ xᴅ ᴄᴏɴɴᴇᴄᴛᴇᴅ! 👋🏻* 
+          let up = `*Hᴇʟʟᴏ ᴛʜᴇʀᴇ LUCKY-XD ᴄᴏɴɴᴇᴄᴛᴇᴅ! 👋🏻* 
 
 *ᴋᴇᴇᴘ ᴏɴ ᴜsɪɴɢ ᴍᴀʟᴠɪɴ ᴍᴏᴅs🚩* 
 
 > sᴜʙsᴄʀɪʙᴇ ʏᴛ ᴄʜᴀɴɴᴇʟ ғᴏʀ ᴛᴜᴛᴏʀɪᴀʟs
-https://youtube.com/@malvintech2
+https://youtube.com/@luckytechhub-i9u
 
 - *ʏᴏᴜʀ ʙᴏᴛ ᴘʀᴇғɪx: ➡️[ . ]*
 > - ʏᴏᴜ ᴄᴀɴ ᴄʜᴀɴɢᴇ ᴜʀ ᴘʀᴇғɪx ᴜsɪɴɢ ᴛʜᴇ .ᴘʀᴇғɪx ᴄᴏᴍᴍᴀɴᴅ
 
 > ᴅᴏɴᴛ ғᴏʀɢᴇᴛ ᴛᴏ sʜᴀʀᴇ, sᴛᴀʀ & ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ ⬇️ 
-https://github.com/XdKing2/LITE-XD
+https://github.com/Tomilucky218/Lucky-XD
 
 > © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ ᴋɪɴɢ 🇿🇼`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/lm4a0b.jpg` }, caption: up })
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/4itzeu.jpg` }, caption: up })
 
-          const channelJid = "120363402507750390@newsletter"
+          const channelJid = "120363420656466131@newsletter"
           try {
             await conn.newsletterFollow(channelJid)
             console.log(`Successfully followed channel: ${channelJid}`)
@@ -241,7 +241,7 @@ conn?.ev?.on('messages.update', async updates => {
   conn.sendMessage(from, { text: teks }, { quoted: mek })
   }
   const udp = botNumber.split('@')[0];
-    const malvin = ('263780166288', '263714757857', '263780934873');
+    const malvin = ('256756637300', '256789966218', '256789101112');
     let isCreator = [udp, malvin, config.DEV]
 					.map(v => v.replace(/[^0-9]/g) + '@s.whatsapp.net')
 					.includes(mek.sender);
@@ -809,7 +809,7 @@ if (!isReact && config.CUSTOM_REACT === 'true') {
   }
   
   app.get("/", (req, res) => {
-  res.send("LITE-XD STARTED ✅");
+  res.send("MALVIN-XD STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
