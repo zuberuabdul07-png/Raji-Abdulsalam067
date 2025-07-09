@@ -38,7 +38,7 @@ async (conn, mek, m, { from, reply }) => {
 ┊⭘ 🤖 *ɴᴀᴍᴇ:* ${repoData.name}
 ┊⭘ ⭐ *ᴛᴏᴛᴀʟ sᴛᴀʀs:* ${repoData.stargazers_count}
 ┊⭘ 👥️ *ᴅᴀɪʟʏ ᴜsᴇʀs:* ${repoData.forks_count}
-┊⭘ 👤 *ᴏᴡɴᴇʀ:* ᴍᴀʟᴠɪɴ ᴋɪɴɢ
+┊⭘ 👤 *ᴏᴡɴᴇʀ:* Lucky 218
 ┊⭘ 🪀 *ᴅᴇsᴄʀɪᴘᴛɪᴏɴ:* ${repoData.description || 'No description available'}
 
 > 🌟 Star & 🍴 Fork the repo for more updates!
