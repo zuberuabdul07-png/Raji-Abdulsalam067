@@ -43,7 +43,7 @@ async (conn, mek, m, { from, reply }) => {
 
 > 🌟 Star & 🍴 Fork the repo for more updates!
 
-┊⭘ ʙᴏᴛ ʟɪɴᴋ: https://github.com/Tomilucky218/Lucky-XD2
+┊⭘ ʙᴏᴛ ʟɪɴᴋ: https://tinyurl.com/ynruv3ge
 ╰────────━⊷
 `;
 
