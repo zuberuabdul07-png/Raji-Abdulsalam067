@@ -24,7 +24,7 @@ malvin({
 │ 👨‍💻 *ᴏᴡɴᴇʀ ɪɴꜰᴏ:*
 │ ──────────
 │ 🧠 *Name:* Lucky 218
-│ 🎂 *Age:* +24
+│ 🎂 *Age:* +25
 │ 📞 *Contact:* wa.me/256789966218
 │ 📺 *YouTube:* Lucky Tech Hub
 │     https://youtube.com/@luckytechhub-i9u
