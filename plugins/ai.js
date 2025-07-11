@@ -14,7 +14,7 @@ malvin({
 }, async (conn, mek, m, { from, args, q, reply }) => {
     try {
         // Vérification de l'entrée utilisateur
-        if (!q) return reply("⚠️ Please provide a query for Lucky Ai.\n\nExample:\n.malvin What is AI?");
+        if (!q) return reply("⚠️ Please provide a query for Lucky Ai.\n\nExample:\n.lucky What is AI?");
 
         // Utilisation de `${text}` dans le endpoint API
         const text = q;  // Texte de la requête de l'utilisateur
@@ -37,7 +37,7 @@ malvin({
 
         // Vérification de la structure de la réponse
         if (!response || !response.data || !response.data.result) {
-            return reply("❌ No response received from the Malvin API. Please try again later.");
+            return reply("❌ No response received from the Lucky API. Please try again later.");
         }
 
         // Extraire uniquement le texte de la réponse (le prompt)
