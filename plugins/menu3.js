@@ -9,7 +9,7 @@ const { getPrefix } = require('../lib/prefix');
 malvin({
     pattern: "menu3",
     react: "🤖",
-    alias: ["menu3"],
+    alias: ["allmenu"],
     desc: "Get command list",
     category: "main",
     filename: __filename
