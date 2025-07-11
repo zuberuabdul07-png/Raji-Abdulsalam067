@@ -1,7 +1,7 @@
 /*
-Project Name : MALVIN XMD
-Creator      : Malvin King ( Mr Lord Malvin )
-Repo         : https//github.com/kingmalvn/MALVIN-XMD
+Project Name : LUCKY XMD
+Creator      : LUCKY 218 ( Mr Lucky 218)
+Repo         : https//github.com/Tomilucky218/Lucky-XD2
 Support      : wa.me/263714757857
 */
 
