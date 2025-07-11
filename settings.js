@@ -118,6 +118,6 @@ OWNER_NAME: process.env.OWNER_NAME || "Lucky 218",
       AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
 // make it true for auto recoding 
 
-version: process.env.version || "0.0.6",
+version: process.env.version || "0.0.9",
 
 };
