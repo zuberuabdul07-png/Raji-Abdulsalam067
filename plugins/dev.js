@@ -18,13 +18,13 @@ malvin({
 │
 │ 👋 Hello, *${name}*!
 │
-│ 🤖 I'm *Lucky 218*, the creator and
+│ 🤖 I'm *ʟᴜᴄᴋʏ ➋➊➑*, the creator and
 │    maintainer of this smart WhatsApp bot.
 │
 │ 👨‍💻 *ᴏᴡɴᴇʀ ɪɴꜰᴏ:*
 │ ──────────
-│ 🧠 *Name:* Lucky 218
-│ 🎂 *Age:* +25
+│ 🧠 *Name:* ʟᴜᴄᴋʏ ➋➊➑
+│ 🎂 *Age:* ➋➎
 │ 📞 *Contact:* wa.me/256789966218
 │ 📺 *YouTube:* Lucky Tech Hub
 │     https://youtube.com/@luckytechhub-i9u
@@ -50,7 +50,7 @@ malvin({
                     },
                     externalAdReply: {
                         title: "Lucky-XD Bot",
-                        body: "Created with ❤️ by Lucky 218",
+                        body: "Created with ❤️ by ʟᴜᴄᴋʏ ➋➊➑",
                         thumbnailUrl: 'https://files.catbox.moe/4itzeu.jpg',
                         mediaType: 1,
                         renderSmallerThumbnail: true,
