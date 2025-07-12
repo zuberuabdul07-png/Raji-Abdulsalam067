@@ -61,10 +61,10 @@ Authenticate using **one** of the methods below to generate your `Session ID`.
 
 > 🟢 Pair Code Authentication
 
-[![Get Pairing Code 1](https://img.shields.io/badge/Get%20Pairing%20Code-orange?style=for-the-badge&logo=opencv&logoColor=black)](https://lucky-xd-pair-1.onrender.com)
+[![Get Pairing Code](https://img.shields.io/badge/Get%20Pairing%20Code-orange?style=for-the-badge&logo=opencv&logoColor=black)](https://lucky-xd-pair-1.onrender.com)
 
 
-[![Get Pairing Code 1](https://img.shields.io/badge/Get%20Pairing%20Code-orange?style=for-the-badge&logo=opencv&logoColor=black)](https://lucky-xd-pair-code-ma.onrender.com)
+[![Get Pairing Code](https://img.shields.io/badge/Get%20Pairing%20Code%202-red?style=for-the-badge&logo=opencv&logoColor=black)](https://lucky-xd-pair-code-ma.onrender.com)
 > 🔵 QR Code Authentication
 
 [![Scan QR Code](https://img.shields.io/badge/Scan%20QR%20Code-000000?style=for-the-badge&logo=react&logoColor=white)](https://lucky-xd-pair-1.onrender.com/qr)
