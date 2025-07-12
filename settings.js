@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "lucky~Ai9ygLCZ#kfq67-2-_XzY85OnrTxFLHdyRN9C4AQyGlfG7rrpZHA",
+SESSION_ID: process.env.SESSION_ID || "",
 // add your Session Id make sure it starts with lucky~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -68,10 +68,10 @@ LINK_WHITELIST: "youtube.com,github.com",
           DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
 
-          OWNER_NUMBER: process.env.OWNER_NUMBER || "256789966218",
+          OWNER_NUMBER: process.env.OWNER_NUMBER || "",
 // add your bot owner number
 
-OWNER_NAME: process.env.OWNER_NAME || "Lucky 218",
+OWNER_NAME: process.env.OWNER_NAME || "",
 // add bot owner name
 
               DESCRIPTION: process.env.DESCRIPTION || "*© Powered By Lucky Tech Hub*",
