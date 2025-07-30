@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "lucky~mAsRCbKY#tKN-2mc8hw0IgVISez3obAMh7_sfuacwwK7Z1LxzhFE",
 // add your Session Id make sure it starts with lucky~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -68,14 +68,14 @@ LINK_WHITELIST: "youtube.com,github.com",
           DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
 
-          OWNER_NUMBER: process.env.OWNER_NUMBER || "",
+          OWNER_NUMBER: process.env.OWNER_NUMBER || "2348028060494",
 // add your bot owner number
 
-OWNER_NAME: process.env.OWNER_NAME || "",
+OWNER_NAME: process.env.OWNER_NAME || "@Raji Abdulsalam ",
 // add bot owner name
 
               DESCRIPTION: process.env.DESCRIPTION || "*© Powered By Lucky Tech Hub*",
-// add bot owner name    
+// add bot owner name    Raji Abdulsalam 
 
         READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
@@ -92,7 +92,7 @@ OWNER_NAME: process.env.OWNER_NAME || "",
 // make true for automatic stickers 
 
               AUTO_REPLY: process.env.AUTO_REPLY || "false",
-// make true or false automatic text reply 
+// make true or false automatic text reply Raji Abdulsalam is not currently available please leave a message on him when he 🔙 it's lovely to chat u 🤝🤝am is Bot thank you
 
         ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // maks true for always online 
